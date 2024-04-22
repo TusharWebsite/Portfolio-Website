@@ -1,0 +1,75 @@
+.contact{
+    margin-left: 200px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+.card0{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+}
+.card2{
+    margin: 0px 40px;
+    margin-left: 150px;
+}
+.image{
+    padding: 10px;
+}
+.line{
+    width: 45%;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+input,textarea{
+    border: 1px solid rgb(143, 140, 140);
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+}
+input:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+textarea:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+.send{
+    background: rgb(0, 153, 255);
+    color: white;
+    border: 1px solid  rgb(0, 153, 255);
+    width: 35%;
+    margin-left: 150px;
+    padding: 3px;
+    border-radius: 20px;
+    font-weight:bold;
+    font-family: sa;
+    letter-spacing: 1px;
+}
+.send:hover{
+    background: rgb(1, 131, 218);
+}
+
+/* ======================== */
+@media (max-width: 600px) {
+    .contact {
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .contact .card2 {
+      margin: 0;
+    }
+  
+    .contact .card2 h6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .send{
+        margin: auto;
+    }
+  }

@@ -1,0 +1,72 @@
+.project{
+    margin-left: 107px;
+    margin-top: 100px;
+}
+.project hr{
+    width: 300px;
+    margin: 10px auto;
+    height: 5px;
+    color: #138781;
+      
+  }
+  .project h2{
+    font-weight: bold;
+    color: #017570; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #ads{
+    margin: 30px 0px 0px 30px;
+    font-weight: bold;
+  }
+
+  #ads .card-notify-badge{
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background: #f29f67;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .project .card img{
+    height: 150px;
+    width: 100%;
+  }
+
+  .card-detail-badge{
+    background-color: #006b59;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0px 2px 0px 2px;
+    padding: 5px 10px;
+  }
+  .card-image-overly span{
+    display: inline-block;
+    color: white;
+  }
+  .project .card:hover{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .ad-title h5{
+    font-size: 25px;
+  }
+
+/* =============================== */
+@media (max-width: 600px) {
+  .project {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .project hr {
+    width: 280px;
+  }
+  .project .card {
+    margin-top: 30px;
+  }
+}
+

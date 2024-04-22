@@ -1,0 +1,46 @@
+.about{
+    padding: 10px;
+    margin-left: 240px;
+}
+
+.about-img img{
+    border-radius: 10px;
+ 
+}
+
+.about h2{
+    font-weight: bold;
+    color: #017570; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.about hr{
+   
+        width: 250px;
+        margin: 5px auto;
+        margin-top: 1px;
+        margin-bottom: 20px;
+        height: 5px;
+        color: #138781;
+          
+      
+}
+
+@media (max-width:600px){
+    .about{
+        padding: 0px;
+        margin: 0px;
+    }
+    .about-img img{
+        height: 240px;
+       
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .about h2{
+        margin-top: 40px;
+    }
+    p{
+        margin-left: 10px;
+    }
+}
